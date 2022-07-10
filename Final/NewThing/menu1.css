@@ -1,0 +1,43 @@
+ul {
+    display: flex;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* 커서포인터 */
+.item {
+    display: block;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+img {width: 200px; padding-right: 15px; padding-bottom: 10px;} 
+.name {font-size: 13px; font-weight: bold;}
+.desc {font-size: 8px; color: gray;}
+.cost {font-size: 6px; font-weight: 600; color: gray;}
+
+li { list-style-type : none } 
+
+.item {padding-bottom: 20px;}
+
+.alllist {line-height: 25px;
+    width: 1200px;
+    margin-left: 10%;
+    margin-right: auto;
+  }
+  hr {width:1080px;}
+  a { text-decoration: none; color: black; }
+  a:visited { text-decoration: none; }
+  a:hover { text-decoration: none; }
+  a:focus { text-decoration: none; }
+  a:hover, a:active { text-decoration: none; }
+
+h3 {margin-left: 14%;}
+
+.copyright {margin-left: 30px; margin-bottom: 30px; color: gray;}
